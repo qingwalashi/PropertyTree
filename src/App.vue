@@ -302,35 +302,21 @@ export default {
     const expandNode = async (nodeId, nodeData) => {
       let childData = null
       
-      // 所有节点都可以展开，加载子节点数据
-      if (nodeData.isRoot) {
-        // 根节点重新加载根数据
-        childData = await loadRootData()
-      } else {
-        // 其他节点加载子节点数据
-        childData = await loadChildData()
-      }
+      // 统一使用子节点数据进行展开，支持无限展开
+      childData = await loadChildData()
       
       if (childData) {
-        // 合并新的子节点数据
-        if (nodeData.isRoot) {
-          // 根节点重新展开，重新转换数据
-          const newData = transformData(childData)
-          // 保持根节点的展开状态
-          const rootNode = newData.nodes.find(node => node.id === nodeId)
-          if (rootNode) {
-            rootNode.expanded = true
-          }
-          graphData = newData
-        } else {
-          // 其他节点的子数据合并
-          graphData = mergeChildData(graphData, childData, nodeId)
-        }
+        // 所有节点都使用合并逻辑，确保无限展开
+        graphData = mergeChildData(graphData, childData, nodeId)
         
         // 更新父节点的展开状态
         const parentNode = graphData.nodes.find(node => node.id === nodeId)
         if (parentNode) {
           parentNode.expanded = true
+          // 确保展开的节点被选中
+          graphData.nodes.forEach(node => {
+            node.selected = node.id === nodeId
+          })
         }
         
         // 应用局部布局，以展开的节点为中心

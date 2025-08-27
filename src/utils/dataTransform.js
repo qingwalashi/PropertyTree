@@ -73,7 +73,9 @@ export function transformData(apiData, parentId = null) {
  * @returns {Object} - 合并后的图数据
  */
 export function mergeChildData(currentData, newData, parentId) {
-  const { nodes: newNodes, edges: newEdges } = transformData(newData, parentId)
+  // 生成动态子节点数据，确保每个节点都有子节点可以展开
+  const dynamicChildData = generateDynamicChildData(newData, parentId)
+  const { nodes: newNodes, edges: newEdges } = transformData(dynamicChildData, parentId)
   
   // 过滤掉已存在的节点
   const existingNodeIds = new Set(currentData.nodes.map(node => node.id))
@@ -94,6 +96,41 @@ export function mergeChildData(currentData, newData, parentId) {
 }
 
 /**
+ * 生成动态子节点数据，确保无限展开
+ * @param {Object} baseData - 基础数据模板
+ * @param {string} parentId - 父节点ID
+ * @returns {Object} - 动态生成的子节点数据
+ */
+export function generateDynamicChildData(baseData, parentId) {
+  if (!baseData || !baseData.Result) {
+    return baseData
+  }
+  
+  const result = { ...baseData.Result }
+  
+  // 为每个子节点生成唯一的ID和名称，确保可以无限展开
+  if (result.EquityShareDetail && result.EquityShareDetail.length > 0) {
+    result.EquityShareDetail = result.EquityShareDetail.map((item, index) => {
+      // 基于父节点ID和索引生成唯一的子节点ID
+      const uniqueId = `${parentId}_child_${index}_${Date.now()}`
+      
+      return {
+        ...item,
+        KeyNo: uniqueId,
+        Name: `${item.Name}_${parentId.slice(-4)}`, // 添加父节点标识确保名称唯一
+        DetailCount: Math.max(1, item.DetailCount || 2), // 确保每个节点都有子节点可展开
+        isGenerated: true // 标记为动态生成的节点
+      }
+    })
+  }
+  
+  return {
+    ...baseData,
+    Result: result
+  }
+}
+
+/**
  * 获取节点的所有子节点ID
  * @param {Array} edges - 边数据
  * @param {string} nodeId - 节点ID
@@ -109,14 +146,21 @@ export function getChildNodeIds(edges, nodeId) {
  * 递归获取节点及其所有后代节点ID
  * @param {Array} edges - 边数据
  * @param {string} nodeId - 节点ID
+ * @param {Set} visited - 已访问的节点集合，防止循环引用
  * @returns {Array} - 包含节点本身及所有后代节点的ID数组
  */
-export function getDescendantNodeIds(edges, nodeId) {
+export function getDescendantNodeIds(edges, nodeId, visited = new Set()) {
+  // 防止循环引用导致无限递归
+  if (visited.has(nodeId)) {
+    return []
+  }
+  
+  visited.add(nodeId)
   const descendants = [nodeId]
   const children = getChildNodeIds(edges, nodeId)
   
   children.forEach(childId => {
-    descendants.push(...getDescendantNodeIds(edges, childId))
+    descendants.push(...getDescendantNodeIds(edges, childId, visited))
   })
   
   return descendants
