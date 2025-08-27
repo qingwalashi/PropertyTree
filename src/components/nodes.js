@@ -315,18 +315,35 @@ G6.registerEdge('three-segment-edge', {
       name: 'main-trunk'
     });
     
-    // 绘制水平汇总线（覆盖所有子节点范围）
-    group.addShape('path', {
-      attrs: {
-        path: [
-          ['M', minX, virtualPoint.y],
-          ['L', maxX, virtualPoint.y]
-        ],
-        stroke: '#d9d9d9',
-        lineWidth: 1
-      },
-      name: 'horizontal-line'
-    });
+    // 绘制水平汇总线（连接所有子节点的纵向连接点）
+    // 如果只有一个子节点，水平线从父节点中心延伸到子节点位置
+    if (minX === maxX) {
+      // 单个子节点情况：从父节点中心到子节点的水平连接
+      group.addShape('path', {
+        attrs: {
+          path: [
+            ['M', parentCenter.x, virtualPoint.y],
+            ['L', childTopCenter.x, virtualPoint.y]
+          ],
+          stroke: '#d9d9d9',
+          lineWidth: 1
+        },
+        name: 'horizontal-line'
+      });
+    } else {
+      // 多个子节点情况：水平线覆盖所有子节点x坐标范围
+      group.addShape('path', {
+        attrs: {
+          path: [
+            ['M', minX, virtualPoint.y],
+            ['L', maxX, virtualPoint.y]
+          ],
+          stroke: '#d9d9d9',
+          lineWidth: 1
+        },
+        name: 'horizontal-line'
+      });
+    }
 
     // --- 每条边独有的部分：分支线和标签 ---
     const branchLine = group.addShape('path', {
