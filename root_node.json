@@ -1,0 +1,704 @@
+{
+    "Status": 200,
+    "Result": {
+        "KeyNo": "beac5843a35be1f73c5f65a55ffc47b3",
+        "DocumentSize": 4531034,
+        "CompanyName": "宁波通商控股集团有限公司",
+        "DetailCount": 32,
+        "EquityShareDetail": [
+            {
+                "KeyNo": "ad85e7e34d035d303ee75e1e9adf8dfd",
+                "Name": "宁波文旅会展集团有限公司",
+                "Alias": "宁波旅投",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "250000万元",
+                "DetailCount": 38,
+                "ShortStatus": "存续",
+                "RegistCapi": "250000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "市属国企",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":0,\"CompType\":7}"
+                    },
+                    {
+                        "Type": 171,
+                        "Name": "发债"
+                    },
+                    {
+                        "Type": 210,
+                        "Name": "宁波旅投",
+                        "DataExtend": "58d4102c-0c72-496a-afe4-b60729ba23c8"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "73d3d6ac54f3fcbe32eb5838162d1bda",
+                "Name": "宁波广电传媒集团有限公司",
+                "Alias": "宁波广电",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "80000万元",
+                "DetailCount": 16,
+                "ShortStatus": "存续",
+                "RegistCapi": "80000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "599d0344491208462b81ff9338e9fe92",
+                "Name": "宁波报业传媒集团有限公司",
+                "Alias": "宁波报业",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "27000万元",
+                "DetailCount": 25,
+                "ShortStatus": "存续",
+                "RegistCapi": "27000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "市属国企",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"\",\"Level\":0,\"CompType\":7}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "fd0f0f64e8435e009651ee490d45f289",
+                "Name": "宁波市产业发展基金有限公司",
+                "Alias": "宁波产发基金",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "10000万元",
+                "DetailCount": 5,
+                "ShortStatus": "存续",
+                "RegistCapi": "10000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "718daa43cc0cadb974e1fc7be14059ef",
+                "Name": "宁波通商资产管理有限公司",
+                "Alias": "通商资管",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "10000万元",
+                "DetailCount": 26,
+                "ShortStatus": "存续",
+                "RegistCapi": "10000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "e836d773b64b5acc1cc76b415b6458ec",
+                "Name": "宁波国有资本研究院有限公司",
+                "Alias": "宁波国资研究院",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "3000万元",
+                "DetailCount": 0,
+                "ShortStatus": "存续",
+                "RegistCapi": "3000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "1491cb88cad3fb705caeeff0ce9c4b34",
+                "Name": "宁波交通发展有限公司",
+                "Alias": "宁波交通发展",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "2000万元",
+                "DetailCount": 5,
+                "ShortStatus": "存续",
+                "RegistCapi": "2000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "59b4970144c21a1e2b24da6be10f469a",
+                "Name": "宁波成形控股有限公司",
+                "Alias": "成形控股",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "500万元",
+                "DetailCount": 1,
+                "ShortStatus": "存续",
+                "RegistCapi": "500万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "e8ab300d241b712a166495a68ae06aa9",
+                "Name": "宁波通科拨改投股权投资合伙企业（有限合伙）",
+                "Percent": "99.9964%",
+                "PercentTotal": "99.9964%",
+                "Org": 0,
+                "ShouldCapi": "28000万元",
+                "DetailCount": 1,
+                "ShortStatus": "存续",
+                "RegistCapi": "28001万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "97a5e795febad9f9ab633eb89ac58c40",
+                "Name": "宁波通达富企业管理合伙企业（有限合伙）",
+                "Percent": "99.96%",
+                "PercentTotal": "99.96%",
+                "Org": 0,
+                "ShouldCapi": "24990万元",
+                "DetailCount": 1,
+                "ShortStatus": "存续",
+                "RegistCapi": "25000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "8c43b68093bc11ff27ca1ac9c66b8df7",
+                "Name": "宁波通商创业投资合伙企业（有限合伙）",
+                "Percent": "99.9%",
+                "PercentTotal": "99.9%",
+                "Org": 0,
+                "ShouldCapi": "499500万元",
+                "DetailCount": 28,
+                "ShortStatus": "存续",
+                "RegistCapi": "500000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    },
+                    {
+                        "Type": 209,
+                        "Name": "私募基金"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "e10d094283c44f04d55521e2d5c6e610",
+                "Name": "宁波通商科创母基金创业投资合伙企业（有限合伙）",
+                "Percent": "99.4%",
+                "PercentTotal": "99.4%",
+                "Org": 0,
+                "ShouldCapi": "99400万元",
+                "DetailCount": 0,
+                "ShortStatus": "存续",
+                "RegistCapi": "100000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    },
+                    {
+                        "Type": 209,
+                        "Name": "私募基金"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "1a8b7a0ac8a18e8c0ecbb7bab645867f",
+                "Name": "宁兴集团（宁波）有限公司",
+                "Alias": "宁兴集团",
+                "Percent": "94.4776%",
+                "PercentTotal": "94.4776%",
+                "Org": 0,
+                "ShouldCapi": "8554万元",
+                "DetailCount": 21,
+                "ShortStatus": "存续",
+                "RegistCapi": "9054万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "市属国企",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"\",\"Level\":0,\"CompType\":7}"
+                    },
+                    {
+                        "Type": 171,
+                        "Name": "发债"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "e5adf538a548edc4e39ccf3e6f6bb0df",
+                "Name": "宁波城建投资集团有限公司",
+                "Alias": "城建投资集团",
+                "Percent": "90%",
+                "PercentTotal": "90%",
+                "Org": 0,
+                "ShouldCapi": "45720万元",
+                "DetailCount": 43,
+                "ShortStatus": "存续",
+                "RegistCapi": "243265.602241万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "市属国企",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"\",\"Level\":0,\"CompType\":7}"
+                    },
+                    {
+                        "Type": 171,
+                        "Name": "发债"
+                    },
+                    {
+                        "Type": 208,
+                        "Name": "宁波城投",
+                        "DataExtend": "ec500e0bdfac219966db55c2b3ba3873"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "d267c4df700685fb2d291b73d49b14f9",
+                "Name": "宁波通商基金管理有限公司",
+                "Alias": "通商基金",
+                "Percent": "90%",
+                "PercentTotal": "90%",
+                "Org": 0,
+                "ShouldCapi": "9000万元",
+                "DetailCount": 32,
+                "ShortStatus": "存续",
+                "RegistCapi": "10000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    },
+                    {
+                        "Type": 207,
+                        "Name": "私募基金管理人"
+                    },
+                    {
+                        "Type": 208,
+                        "Name": "宁波通商基金",
+                        "DataExtend": "863f597a646ec44f1f6e0ae5e77de22f"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "702977ae29dbeda35525407902ceccba",
+                "Name": "宁波工业投资集团有限公司",
+                "Alias": "宁波工业投资集团",
+                "Percent": "89.8919%",
+                "PercentTotal": "89.8919%",
+                "Org": 0,
+                "ShouldCapi": "186754万元",
+                "DetailCount": 57,
+                "ShortStatus": "存续",
+                "RegistCapi": "207754万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    },
+                    {
+                        "Type": 171,
+                        "Name": "发债"
+                    },
+                    {
+                        "Type": 208,
+                        "Name": "宁波工投",
+                        "DataExtend": "cdecc3683bd62a953e1520760c451d3b"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "5208c748aee27261ff5385af07d585df",
+                "Name": "宁波市水务环境集团股份有限公司",
+                "Alias": "宁波水务环境",
+                "Percent": "88%",
+                "PercentTotal": "88%",
+                "Org": 0,
+                "ShouldCapi": "200000万元",
+                "DetailCount": 14,
+                "ShortStatus": "存续",
+                "RegistCapi": "227272.7272万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "市属国企",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":0,\"CompType\":7}"
+                    },
+                    {
+                        "Type": 3,
+                        "Name": "A轮",
+                        "ShortName": "宁波水务环境"
+                    },
+                    {
+                        "Type": 171,
+                        "Name": "发债"
+                    },
+                    {
+                        "Type": 210,
+                        "Name": "宁波水务环境",
+                        "DataExtend": "5f30f69b-395f-4086-8727-fce9ba584748"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "7c4e636069846d4045d63dfe78807740",
+                "Name": "宁波人才发展集团有限公司",
+                "Alias": "宁波人才集团",
+                "Percent": "80.8045%",
+                "PercentTotal": "80.8045%",
+                "Org": 0,
+                "ShouldCapi": "100000万元",
+                "DetailCount": 9,
+                "ShortStatus": "存续",
+                "RegistCapi": "123755.45096万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "市属国企",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"\",\"Level\":0,\"CompType\":7}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "3f3994bf451dee0aff5b52f1862c28bf",
+                "Name": "宁波农商发展集团有限公司",
+                "Alias": "宁波商贸",
+                "Percent": "80.4966%",
+                "PercentTotal": "80.4966%",
+                "Org": 0,
+                "ShouldCapi": "100500.1774万元",
+                "DetailCount": 28,
+                "ShortStatus": "存续",
+                "RegistCapi": "124850.1774万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "市属国企",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":0,\"CompType\":7}"
+                    },
+                    {
+                        "Type": 171,
+                        "Name": "发债"
+                    },
+                    {
+                        "Type": 210,
+                        "Name": "宁波商贸",
+                        "DataExtend": "228d1e7c-d471-4375-a0b4-ac327f634c2c"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "6c4270c4d457883134baeb10cc4c9493",
+                "Name": "宁波通商惠工产业投资基金合伙企业（有限合伙）",
+                "Percent": "80%",
+                "PercentTotal": "80%",
+                "Org": 0,
+                "ShouldCapi": "400000万元",
+                "DetailCount": 3,
+                "ShortStatus": "存续",
+                "RegistCapi": "500000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    },
+                    {
+                        "Type": 209,
+                        "Name": "私募基金"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "7e94681dc0cf1cdcc293dc1d76e9ca2c",
+                "Name": "宁波交通投资集团有限公司",
+                "Alias": "宁波交投",
+                "Percent": "78.3849%",
+                "PercentTotal": "78.3849%",
+                "Org": 0,
+                "ShouldCapi": "249024.1672万元",
+                "DetailCount": 54,
+                "ShortStatus": "存续",
+                "RegistCapi": "317694.1672万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "市属国企",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":0,\"CompType\":7}"
+                    },
+                    {
+                        "Type": 171,
+                        "Name": "发债"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "45b0dad23dac59138a0d61034cb193de",
+                "Name": "宁波数字产业集团有限公司",
+                "Alias": "数字产业集团",
+                "Percent": "77.25%",
+                "PercentTotal": "77.25%",
+                "Org": 0,
+                "ShouldCapi": "77250万元",
+                "DetailCount": 11,
+                "ShortStatus": "存续",
+                "RegistCapi": "100000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "4083e3e62a8e7e526f4910b79b1530b5",
+                "Name": "宁波宁能电力销售有限公司",
+                "Alias": "宁能电力",
+                "Percent": "60%",
+                "PercentTotal": "60%",
+                "Org": 0,
+                "ShouldCapi": "12006万元",
+                "DetailCount": 3,
+                "ShortStatus": "存续",
+                "RegistCapi": "20010万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":3,\"ControlType\":3,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "473690a446b621d6b3130903e19c2da8",
+                "Name": "宁波产权交易中心有限公司",
+                "Alias": "宁波产权交易中心",
+                "Percent": "60%",
+                "PercentTotal": "60%",
+                "Org": 0,
+                "ShouldCapi": "1200万元",
+                "DetailCount": 4,
+                "ShortStatus": "存续",
+                "RegistCapi": "2000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "01fc38f8e87c6a38c1abc035fee25f17",
+                "Name": "宁波种业股份有限公司",
+                "Alias": "宁波种业",
+                "Percent": "56.1346%",
+                "PercentTotal": "56.1346%",
+                "Org": 0,
+                "ShouldCapi": "4546.9036万元",
+                "DetailCount": 2,
+                "ShortStatus": "存续",
+                "RegistCapi": "8100万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":3,\"ControlType\":3,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "a5fef57ef25ca05b397b6b3aa8f78fe2",
+                "Name": "宁波市甬欣基金合伙企业（有限合伙）",
+                "Percent": "42.995%",
+                "PercentTotal": "42.995%",
+                "Org": 0,
+                "ShouldCapi": "859900万元",
+                "DetailCount": 11,
+                "ShortStatus": "存续",
+                "RegistCapi": "2000000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    },
+                    {
+                        "Type": 209,
+                        "Name": "私募基金"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "7b653eefd83910e3c7a817cf82920bea",
+                "Name": "宁波市甬宁基金合伙企业（有限合伙）",
+                "Percent": "39.9967%",
+                "PercentTotal": "39.9967%",
+                "Org": 0,
+                "ShouldCapi": "1199900万元",
+                "DetailCount": 5,
+                "ShortStatus": "存续",
+                "RegistCapi": "3000000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    },
+                    {
+                        "Type": 209,
+                        "Name": "私募基金"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "bdf732b60ecb9ef015dfcb38c934e63a",
+                "Name": "宁波通高工融股权投资合伙企业（有限合伙）",
+                "Percent": "39.95%",
+                "PercentTotal": "39.95%",
+                "Org": 0,
+                "ShouldCapi": "79900万元",
+                "DetailCount": 0,
+                "ShortStatus": "存续",
+                "RegistCapi": "200000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":3,\"ControlType\":3,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    },
+                    {
+                        "Type": 209,
+                        "Name": "私募基金"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "e62f1f53faaf034123675eda9f40aa1f",
+                "Name": "宁波市水利水电规划设计研究院有限公司",
+                "Alias": "宁波水规院",
+                "Percent": "26.0522%",
+                "PercentTotal": "26.0522%",
+                "Org": 0,
+                "ShouldCapi": "1147.39万元",
+                "DetailCount": 7,
+                "ShortStatus": "存续",
+                "RegistCapi": "4404.2万元人民币",
+                "Tags": []
+            },
+            {
+                "KeyNo": "107189865e77b7ceb1892ef07ab72ad8",
+                "Name": "宁波富甬集团有限公司",
+                "Alias": "富甬集团",
+                "Percent": "19%",
+                "PercentTotal": "19%",
+                "Org": 0,
+                "ShouldCapi": "22800万元",
+                "DetailCount": 7,
+                "ShortStatus": "存续",
+                "RegistCapi": "120000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"\",\"Level\":0,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "310b432fc2d42a37d4a928d9d35bf81a",
+                "Name": "万达信息股份有限公司",
+                "CompanyCode": "300168",
+                "Alias": "万达信息",
+                "Percent": "3.5138%",
+                "PercentTotal": "3.5138%",
+                "Org": 0,
+                "StockRightNum": "50,620,155",
+                "DetailCount": 65,
+                "ShortStatus": "存续",
+                "RegistCapi": "144177.7126万元人民币",
+                "Tags": [
+                    {
+                        "Type": 2,
+                        "Name": "A股",
+                        "ShortName": "万达信息",
+                        "DataExtend": "300168.SZ",
+                        "TradingPlaceCode": "001003",
+                        "TradingPlaceName": "深圳证券交易所"
+                    },
+                    {
+                        "Type": 210,
+                        "Name": "万达信息",
+                        "DataExtend": "4292380c-f146-4ab1-806f-0325bf79bbb5"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "47bc6172b38367f6a8af12db33a7f08a",
+                "Name": "兴仁市甬兴经贸有限公司",
+                "Percent": "40%",
+                "PercentTotal": "40%",
+                "Org": 0,
+                "ShouldCapi": "400万元",
+                "DetailCount": 0,
+                "ShortStatus": "注销",
+                "RegistCapi": "1000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"5b7f28f89f06779c65474b5246f5c387\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波市轨道交通集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,278 @@
+{
+    "Status": 200,
+    "Result": {
+        "KeyNo": "5208c748aee27261ff5385af07d585df",
+        "DocumentSize": 150694,
+        "CompanyName": "宁波市水务环境集团股份有限公司",
+        "DetailCount": 14,
+        "EquityShareDetail": [
+            {
+                "KeyNo": "e9c0f42b8aef6822aaca315f9132eea4",
+                "Name": "宁波市宁东水务有限公司",
+                "Alias": "宁东水务",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "45000万元",
+                "DetailCount": 0,
+                "ShortStatus": "存续",
+                "RegistCapi": "45000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"5208c748aee27261ff5385af07d585df\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波市水务环境集团股份有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "3f1e4f7671f60319fb51f9c6e79a5e2f",
+                "Name": "宁波市城市排水有限公司",
+                "Alias": "宁波城市排水",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "41115.36万元",
+                "DetailCount": 2,
+                "ShortStatus": "存续",
+                "RegistCapi": "41115.36万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"5208c748aee27261ff5385af07d585df\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波市水务环境集团股份有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "e0dd2f3f2afa750b8df867f75140c28e",
+                "Name": "宁波工业供水有限公司",
+                "Alias": "宁波工业供水",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "30000万元",
+                "DetailCount": 1,
+                "ShortStatus": "存续",
+                "RegistCapi": "30000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"5208c748aee27261ff5385af07d585df\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波市水务环境集团股份有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "5e63212e008279bc9711e532bb41073a",
+                "Name": "宁波杭州湾新区自来水有限公司",
+                "Alias": "宁波自来水",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "12000万元",
+                "DetailCount": 0,
+                "ShortStatus": "存续",
+                "RegistCapi": "12000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"5208c748aee27261ff5385af07d585df\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波市水务环境集团股份有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "2ab89d5f2d96ab278af39f3db819bd73",
+                "Name": "宁波市水务环境工程建设有限公司",
+                "Alias": "宁波水务环境",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "4800万元",
+                "DetailCount": 2,
+                "ShortStatus": "存续",
+                "RegistCapi": "4800万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"5208c748aee27261ff5385af07d585df\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波市水务环境集团股份有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "cd0d5519c5e3e4645d941886fdf65a39",
+                "Name": "宁波市奉化区水务有限公司",
+                "Alias": "奉化水务",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "1139万元",
+                "DetailCount": 3,
+                "ShortStatus": "存续",
+                "RegistCapi": "1139万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"5208c748aee27261ff5385af07d585df\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波市水务环境集团股份有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "99777bd984403c2499098e45b88ed928",
+                "Name": "宁波市给排水工程设计研究院有限公司",
+                "Alias": "给排水设计",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "181万元",
+                "DetailCount": 0,
+                "ShortStatus": "存续",
+                "RegistCapi": "181万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"5208c748aee27261ff5385af07d585df\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波市水务环境集团股份有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "1f158981b0cb790c86004526adcfcafd",
+                "Name": "宁波城市供水水质监测站有限公司",
+                "Alias": "宁波城市供水水质监测",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "100万元",
+                "DetailCount": 0,
+                "ShortStatus": "存续",
+                "RegistCapi": "100万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"5208c748aee27261ff5385af07d585df\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波市水务环境集团股份有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "72405b5c319580365d32ca1ba3d30dbe",
+                "Name": "浙江涌威水科技发展有限公司",
+                "Alias": "涌威水科技",
+                "Percent": "49%",
+                "PercentTotal": "49%",
+                "Org": 0,
+                "ShouldCapi": "490万元",
+                "DetailCount": 0,
+                "ShortStatus": "存续",
+                "RegistCapi": "1000万元人民币",
+                "Tags": []
+            },
+            {
+                "KeyNo": "de6abf74339bc49cbd76597bc6dacaf2",
+                "Name": "宁波市涌开水环境发展有限公司",
+                "Alias": "涌开水环境",
+                "Percent": "40%",
+                "PercentTotal": "40%",
+                "Org": 0,
+                "ShouldCapi": "2000万元",
+                "DetailCount": 5,
+                "ShortStatus": "存续",
+                "RegistCapi": "5000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":3,\"ControlType\":3,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"5208c748aee27261ff5385af07d585df\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波市水务环境集团股份有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "7b653eefd83910e3c7a817cf82920bea",
+                "Name": "宁波市甬宁基金合伙企业（有限合伙）",
+                "Percent": "6%",
+                "PercentTotal": "6%",
+                "Org": 0,
+                "ShouldCapi": "180000万元",
+                "DetailCount": 5,
+                "ShortStatus": "存续",
+                "RegistCapi": "3000000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    },
+                    {
+                        "Type": 209,
+                        "Name": "私募基金",
+                        "DataExtend": "{\"Id\":\"\",\"ProductId\":\"\",\"Id2\":\"863f597a646ec44f1f6e0ae5e77de22f\",\"ProductId2\":\"fe7e9e8f037337ed1af3c8f77c4a3be0\",\"FundNo\":\"SNT215\",\"FundType\":\"股权投资基金\",\"ManageType\":\"受托管理\",\"BackUpDate\":1615824000}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "48ce1cbf5d405755d91cb2309d0100f8",
+                "Name": "宁波上航测绘股份有限公司",
+                "Alias": "上航测绘",
+                "Percent": "4.5001%",
+                "PercentTotal": "4.5001%",
+                "Org": 0,
+                "ShouldCapi": "129.09万元",
+                "DetailCount": 0,
+                "ShortStatus": "存续",
+                "RegistCapi": "2868.58万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":3,\"ControlType\":3,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"6827680b5653b1b5dc177a9e55f9d14b\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"中国交通建设集团有限公司\\\"}\",\"Level\":5,\"CompType\":1}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "a5fef57ef25ca05b397b6b3aa8f78fe2",
+                "Name": "宁波市甬欣基金合伙企业（有限合伙）",
+                "Percent": "2%",
+                "PercentTotal": "2%",
+                "Org": 0,
+                "ShouldCapi": "40000万元",
+                "DetailCount": 11,
+                "ShortStatus": "存续",
+                "RegistCapi": "2000000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"beac5843a35be1f73c5f65a55ffc47b3\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波通商控股集团有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    },
+                    {
+                        "Type": 209,
+                        "Name": "私募基金",
+                        "DataExtend": "{\"Id\":\"\",\"ProductId\":\"\",\"Id2\":\"863f597a646ec44f1f6e0ae5e77de22f\",\"ProductId2\":\"eaa389445b4107c9b67a5b1e9840dc03\",\"FundNo\":\"SNN381\",\"FundType\":\"股权投资基金\",\"ManageType\":\"受托管理\",\"BackUpDate\":1609171200}"
+                    }
+                ]
+            },
+            {
+                "KeyNo": "1f11cabf314d3bb205d2d64a1c59b42a",
+                "Name": "宁波市自来水有限公司",
+                "Percent": "100%",
+                "PercentTotal": "100%",
+                "Org": 0,
+                "ShouldCapi": "188000万元",
+                "DetailCount": 14,
+                "ShortStatus": "注销",
+                "RegistCapi": "188000万元人民币",
+                "Tags": [
+                    {
+                        "Type": 622,
+                        "Name": "国有企业",
+                        "DataExtend": "{\"controlType\":2,\"ControlType\":2,\"BelongCoyInfo\":\"{\\\"KeyNo\\\":\\\"5208c748aee27261ff5385af07d585df\\\",\\\"Org\\\":0,\\\"Name\\\":\\\"宁波市水务环境集团股份有限公司\\\"}\",\"Level\":1,\"CompType\":1}"
+                    }
+                ]
+            }
+        ]
+    }
+}
