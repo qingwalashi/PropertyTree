@@ -38,16 +38,13 @@ export default {
   color: #666666;
   z-index: 1000;
   backdrop-filter: blur(4px);
+  display: flex;
+  gap: 16px;
 }
 
 .legend-item {
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
-}
-
-.legend-item:last-child {
-  margin-bottom: 0;
 }
 
 .legend-icon {
@@ -74,7 +71,8 @@ export default {
 }
 
 .investment-arrow {
-  background: linear-gradient(to right, transparent 0%, transparent 30%, #1890ff 30%, #1890ff 70%, transparent 70%, transparent 100%);
+  background: #d9d9d9;
+  height: 1px;
   position: relative;
 }
 
