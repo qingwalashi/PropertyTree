@@ -47,8 +47,49 @@ export default {
       }
     }
     
-    // 自定义对称布局函数
-    const applySymmetricLayout = (data) => {
+    // 局部布局函数 - 以父节点为中心展开子节点
+    const applyLocalLayout = (data, expandedNodeId) => {
+      if (!expandedNodeId) return
+      
+      const nodes = data.nodes
+      const edges = data.edges
+      
+      // 找到展开的父节点
+      const parentNode = nodes.find(node => node.id === expandedNodeId)
+      if (!parentNode) return
+      
+      // 找到该父节点的直接子节点
+      const childEdges = edges.filter(edge => edge.source === expandedNodeId)
+      const childNodes = childEdges.map(edge => nodes.find(node => node.id === edge.target)).filter(Boolean)
+      
+      if (childNodes.length === 0) return
+      
+      // 保持父节点位置不变
+      const parentX = parentNode.x
+      const parentY = parentNode.y
+      
+      // 子节点布局在父节点下方150px处
+      const childY = parentY + 150
+      
+      if (childNodes.length === 1) {
+        // 单个子节点直接在父节点正下方
+        childNodes[0].x = parentX
+        childNodes[0].y = childY
+      } else {
+        // 多个子节点以父节点为中心左右对称分布
+        const spacing = 200
+        const totalWidth = (childNodes.length - 1) * spacing
+        const startX = parentX - totalWidth / 2
+        
+        childNodes.forEach((node, index) => {
+          node.x = startX + index * spacing
+          node.y = childY
+        })
+      }
+    }
+
+    // 全局布局函数 - 用于初始化时的完整布局
+    const initializeGlobalLayout = (data) => {
       const nodes = data.nodes
       const edges = data.edges
       
@@ -292,8 +333,8 @@ export default {
           parentNode.expanded = true
         }
         
-        // 应用对称布局
-        applySymmetricLayout(graphData)
+        // 应用局部布局，以展开的节点为中心
+        applyLocalLayout(graphData, nodeId)
         graph.data(graphData)
         graph.render()
         
@@ -324,8 +365,8 @@ export default {
       graph.data(graphData)
       graph.render()
       
-      // 应用对称布局
-      applySymmetricLayout(graphData)
+      // 应用局部布局
+      applyLocalLayout(graphData, nodeId)
       graph.data(graphData)
       graph.render()
     }
@@ -364,8 +405,8 @@ export default {
       const rootData = await loadRootData()
       if (rootData) {
         graphData = transformData(rootData)
-        // 应用对称布局
-        applySymmetricLayout(graphData)
+        // 初始化时使用全局布局
+        initializeGlobalLayout(graphData)
         graph.data(graphData)
         graph.render()
         graph.fitView()
